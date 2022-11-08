@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://u:p@localhost:8888
+      label: aapnootmies
+      fail-fast: true
+  config:
+    import: "optional:configserver:"
+
